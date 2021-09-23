@@ -1,0 +1,17 @@
+{
+  "editor.tabSize": 2,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "css.validate": false,
+  "eslint.nodePath": "../node_modules",
+  "eslint.validate": [
+    "typescript",
+    "typescriptreact",
+    "javascript",
+    "javascriptreact"
+  ],
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
