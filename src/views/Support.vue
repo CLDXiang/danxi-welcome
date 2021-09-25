@@ -1,7 +1,7 @@
 <template>
   <div>
-    Home
-    <about theme="dark" />
+    Support
+    <about />
   </div>
 </template>
 
@@ -10,7 +10,7 @@ import { defineComponent } from 'vue';
 import About from '@/components/About';
 
 export default defineComponent({
-  name: 'Home',
+  name: 'Support',
   components: { About },
 });
 </script>
