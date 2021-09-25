@@ -1,5 +1,5 @@
 <template>
-  <li class="px-1">
+  <li class="px-1 hover:opacity-80 transition-opacity duration-300">
     <a
       :href="href"
       target="_blank"
