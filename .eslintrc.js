@@ -16,8 +16,10 @@ module.exports = {
         code: 100,
         ignorePattern: '^\\s*(class|d)=("[^"]+"|\\{`)',
         ignoreComments: true,
+        ignoreUrls: true,
       },
     ],
     'import/prefer-default-export': 0,
+    '@typescript-eslint/explicit-module-boundary-types': 0,
   },
 };
