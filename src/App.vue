@@ -78,4 +78,17 @@ article ul {
 article ol {
   @apply list-inside list-decimal;
 }
+
+.fade-up-init {
+  opacity: 0;
+  transform: translate3d(0, 100px, 0);
+  transition-property: opacity, transform;
+  transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  transition-duration: 0.45s;
+}
+
+.fade-up-animate {
+  @apply opacity-100;
+  transform: translateZ(0);
+}
 </style>
